@@ -33,3 +33,27 @@ const myFunction = function(){
 console.log(typeof bigNumber);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//stack(primitive) copy, heap(non-primitive) refernce of orignal value
+
+let myYoutubename= "ankitmalik"
+let anothername = myYoutubename
+anothername = "coffeeaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+ 
+userTwo.email = "ankit@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+

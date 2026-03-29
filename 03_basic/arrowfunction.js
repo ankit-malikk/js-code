@@ -47,3 +47,7 @@ const addTwo = (num1, num2) => ({username: "ankit"})
 
 
 console.log(addTwo(3, 4))
+// 1. This keyword global and local scope context 
+// 2. Arrow function with object, without object
+// 3. Arrow function with implicit context and explicit context 
+// 4. This keyword with node engine and browser engine 

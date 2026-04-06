@@ -27,29 +27,28 @@ const user = {
     
 // }
 
-const chai = () => {
-    let username = "ankit"
-    console.log(this);
+// const chai = () => {
+//     let username = "ankit"`
+//     console.log(this);
     
 
-}
-chai()
-
-// const addTwo = (num1, num2) => {
-//     return num1 + num2
 // }
+// chai()
+
+// // const addTwo = (num1, num2) => {
+// //     return num1 + num2
+// // }
+
+// // console.log(addTwo(3, 4))
+
+// // const addTwo = (num1, num2) => num1 + num2
+// // const addTwo = (num1, num2) => (num1 + num2)
+// const addTwo = (num1, num2) => ({username: "ankit"})
+
 
 // console.log(addTwo(3, 4))
 
-// const addTwo = (num1, num2) => num1 + num2
-// const addTwo = (num1, num2) => (num1 + num2)
-const addTwo = (num1, num2) => ({username: "ankit"})
-
-
-console.log(addTwo(3, 4))
-
-// 1. This keyword global and local scope context 
-// 2. Arrow function with object, without object
-// 3. Arrow function with implicit context and explicit context 
-// 4. This keyword with node engine and browser engine 
-
+// // 1. This keyword global and local scope context 
+// // 2. Arrow function with object, without object
+// // 3. Arrow function with implicit context and explicit context 
+// // 4. This keyword with node engine and browser engine
